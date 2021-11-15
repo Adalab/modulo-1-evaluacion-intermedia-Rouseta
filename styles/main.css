@@ -1,0 +1,26 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  background-image: url(https://raw.githubusercontent.com/Adalab/resources/master/images/adalab-logo-155x61.png);
+  background-repeat: no-repeat;
+  background-color: white;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 100vh;
+  background-color: #3cdbc0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 30px;
+}
