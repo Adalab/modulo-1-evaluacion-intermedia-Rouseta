@@ -4,14 +4,32 @@
 .header {
   position: fixed;
   width: 100%;
-  background-image: url(https://raw.githubusercontent.com/Adalab/resources/master/images/adalab-logo-155x61.png);
-  background-repeat: no-repeat;
   background-color: white;
-  height: 70px;
+  height: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: 155px;
+  box-sizing: border-box;
+}
+.navigation {
+  padding-left: 10px;
+  font-size: 16px;
+  color: #4a4a4a;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-bottom: 13px;
+}
+.blog {
+  padding-right: 20px;
 }
 
 .main {
