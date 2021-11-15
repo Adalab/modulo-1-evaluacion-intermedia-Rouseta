@@ -8,6 +8,8 @@
   height: 100px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 13px;
+  padding-top: 10px;
 }
 img {
   padding-top: 10px;
@@ -27,6 +29,7 @@ img {
   flex-direction: row;
   list-style: none;
   padding-bottom: 13px;
+  box-sizing: border-box;
 }
 .blog {
   padding-right: 20px;
@@ -48,12 +51,17 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    box-sizing: ;
+    paddi
   }
   .main {
     font-size: 40px;
   }
   .list {
     padding-right: 30px;
+  }
+  .header{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
   }
 }
