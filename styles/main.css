@@ -30,6 +30,7 @@ img {
   text-align: center;
   font-size: 30px;
   word-spacing: 100vw;
+  font-family: "Rubik";
 }
 .list {
   display: flex;
