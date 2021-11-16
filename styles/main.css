@@ -24,8 +24,12 @@ img {
   color: #4a4a4a;
 }
 
-.titulo{
-  display: block;
+.title {
+  color: #ffffff;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 30px;
+  word-spacing: 100vw;
 }
 .list {
   display: flex;
@@ -34,8 +38,11 @@ img {
   padding-bottom: 13px;
   box-sizing: border-box;
 }
-.blog {
-  padding-right: 20px;
+.menu-link {
+  text-decoration: none;
+  color: #4a4a4a;
+  padding: 0px 10px 13px 10px;
+  text-transform: uppercase;
 }
 
 .main {
@@ -54,17 +61,11 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    paddi
   }
-  .main {
+  .title {
     font-size: 40px;
   }
   .list {
     padding-right: 30px;
-  }
-  .header{
-    padding-bottom: 20px;
-    padding-top: 20px;
-    box-sizing: border-box;
   }
 }
